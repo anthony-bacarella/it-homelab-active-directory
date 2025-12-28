@@ -1,0 +1,19 @@
+# Active Directory Homelab
+
+## Environment
+- Windows Server 2022 (Domain Controller, DNS)
+- Windows 10 Enterprise (Domain-joined client)
+- VirtualBox Internal Network
+
+## What This Lab Demonstrates
+- User and group management
+- Password resets and account lockouts
+- DNS troubleshooting
+- Group Policy application
+- Tier 1 Help Desk workflows
+
+## Tools Used
+- Active Directory Users and Computers
+- DNS Manager
+- Group Policy Management
+- PowerShell
