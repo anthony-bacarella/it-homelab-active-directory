@@ -5,7 +5,6 @@
 - Windows 10 Enterprise (Domain-joined client)
 - Linux Ubuntu (Domain-joined client)
 - Max OSX (Domain-joined client)
-- VirtualBox Internal Network
 
 ## What This Lab Demonstrates
 - User and group management
