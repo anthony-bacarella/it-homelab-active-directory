@@ -1,5 +1,24 @@
 # Active Directory Structure
 
+│
+├── Users
+│   ├── IT
+│   ├── Accounting
+│   └── Sales
+│
+├── Groups
+│   ├── SG_IT
+│   ├── SG_Accounting
+│   └── SG_Sales
+│
+├── Computers
+│   ├── Workstations
+│   └── Laptops
+│
+└── Disabled
+    ├── Disabled Users
+    └── Disabled Computers
+
 This document describes the Active Directory organizational structure used in the **lab.local** domain.  
 The goal of this structure is to demonstrate proper object organization, role-based access control, and real-world administrative practices in a small business environment.
 
