@@ -5,7 +5,7 @@ The goal of this structure is to demonstrate proper object organization, role-ba
 
 ---
 
-![OU Structure}(https://github.com/anthony-bacarella/it-homelab-active-directory/blob/main/screenshots/ou%20structure.png)
+![OU Structure](https://github.com/anthony-bacarella/it-homelab-active-directory/blob/main/screenshots/ou%20structure.png)
 
 ## Organizational Unit (OU) Structure
 
