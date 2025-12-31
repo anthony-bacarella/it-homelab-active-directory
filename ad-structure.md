@@ -9,7 +9,7 @@ The goal of this structure is to demonstrate proper object organization, role-ba
 
 The OU design separates users, groups, computers, and disabled objects to simplify administration and Group Policy application.
 
-![test](screenshots/account disabled login.png)
+![test](../screenshots/account disabled login.png)
 
 ## Users
 
