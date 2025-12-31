@@ -9,7 +9,6 @@ The goal of this structure is to demonstrate proper object organization, role-ba
 
 The OU design separates users, groups, computers, and disabled objects to simplify administration and Group Policy application.
 
-(https://github.com/anthony-bacarella/it-homelab-active-directory/blob/main/screenshots/moving%20disabled%20account.jpg)
 
 ## Users
 
