@@ -18,7 +18,7 @@ The lab focuses on practical, job-relevant Active Directory administration rathe
     - DNS Server
 
 ### Clients
-- Windows 10 Enterprise (domain-joined)
+- 2 x Windows 10 Enterprise (domain-joined)
 - Ubuntu Linux (domain-joined)
 - macOS (domain-joined)
 
