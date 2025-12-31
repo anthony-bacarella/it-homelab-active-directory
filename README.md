@@ -7,7 +7,7 @@
 - Max OSX (Domain-joined client)
 
 ## Hardware
-- 2 × Windows 11 PCs (used as domain-joined workstations)
+- 2 × Windows 11 PCs running VirtualBox (used as domain-joined workstations)
 - 1 × Ubuntu PC (used as a Linux domain-joined client)
 - 1 × macOS laptop (used as a macOS domain-joined client)
 
