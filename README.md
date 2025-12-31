@@ -6,7 +6,6 @@
 - Linux Ubuntu (Domain-joined client)
 - Max OSX (Domain-joined client)
 
-- 
 ## Hardware
 - 2 × Windows 11 PCs (used as domain-joined workstations)
 - 1 × Ubuntu PC (used as a Linux domain-joined client)
