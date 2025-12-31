@@ -20,6 +20,7 @@ The OU design separates users, groups, computers, and disabled objects to simpli
 
 ## Groups
 
+- 3 Security group departments SG_IT, SG_Sales, SG_Accounting
 - Security groups follow a clear naming convention (`SG_Department`)
 - Groups are used to assign permissions rather than assigning permissions directly to users
 - Example use cases:
