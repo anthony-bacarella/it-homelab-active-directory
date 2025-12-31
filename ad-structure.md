@@ -1,5 +1,3 @@
---
-
 ## Users
 
 - User accounts are organized by department (IT, Accounting, Sales)
