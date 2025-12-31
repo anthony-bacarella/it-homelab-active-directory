@@ -4,7 +4,7 @@
 - Windows Server 2022 (Domain Controller, DNS)
 - Windows 10 Enterprise (Domain-joined client)
 - Linux Ubuntu (Domain-joined client)
-- Max OSX (Domain-joined client)
+- macOS (Domain-joined client)
 
 ## Hardware
 - 2 × Windows 11 PCs running VirtualBox (used as domain-joined workstations)
