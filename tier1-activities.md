@@ -8,7 +8,7 @@ This homelab simulates common Tier 1 Help Desk tasks in a Windows Active Directo
 - Assigned user **Anthony AB. Bacarella** to the **Domain Admin** group
 - Demonstrated role-based administrative access and privileged account management
 - Simulated adding a help desk technician with elevated permissions
-
+  ![Assigning Group](https://github.com/anthony-bacarella/it-homelab-active-directory/blob/main/screenshots/assigning%20group.png?raw=true)
 ---
 
 ### User Onboarding
