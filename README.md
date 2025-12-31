@@ -6,6 +6,12 @@
 - Linux Ubuntu (Domain-joined client)
 - Max OSX (Domain-joined client)
 
+- 
+## Hardware
+- 2 × Windows 11 PCs (used as domain-joined workstations)
+- 1 × Ubuntu PC (used as a Linux domain-joined client)
+- 1 × macOS laptop (used as a macOS domain-joined client)
+
 ## What This Lab Demonstrates
 - User and group management
 - Password resets and account lockouts
