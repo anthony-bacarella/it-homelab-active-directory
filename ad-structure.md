@@ -1,3 +1,15 @@
+# Active Directory Structure
+
+This document describes the Active Directory organizational structure used in the **lab.local** domain.  
+The goal of this structure is to demonstrate proper object organization, role-based access control, and real-world administrative practices in a small business environment.
+
+---
+
+## Organizational Unit (OU) Structure
+
+The OU design separates users, groups, computers, and disabled objects to simplify administration and Group Policy application.
+
+
 ## Users
 
 - User accounts are organized by department (IT, Accounting, Sales)
