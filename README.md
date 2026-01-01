@@ -79,9 +79,9 @@ All tickets are created, worked, and resolved as they would be in a production H
   - `tier1-activities.md` – Simulated Tier 1 Help Desk tasks and workflows
   - `ticketing-system.md` – Jira ticketing system setup and resolved tickets
   - `screenshots/` – Limited screenshots supporting documentation
-- 'ticketing system/'
-  - 'README.md'
-  - 'screenshots/'   
+- `ticketing system/`
+  - `README.md`
+  - `screenshots/`   
 
 ---
 
