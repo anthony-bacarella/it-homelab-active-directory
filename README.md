@@ -58,13 +58,6 @@ Jira is used to demonstrate:
 - Mapping tickets to Active Directory administrative actions
 - Proper resolution and closure of tickets
 
-### Simulated Tickets Include:
-- Account locked out
-- Forgot password
-- Disable user account (user moved to Disabled Users OU and account disabled)
-- Connect macOS device to Active Directory domain
-- Onboard new Sales user (user created in Sales OU and added to `SG_Sales` security group)
-
 All tickets are created, worked, and resolved as they would be in a production Help Desk environment.
 
 ---
