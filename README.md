@@ -2,7 +2,7 @@
 
 This repository documents a hands-on **Active Directory homelab** built to simulate a small business IT environment and common **Tier 1 Help Desk** responsibilities.
 
-The lab focuses on practical, job-relevant Active Directory administration rather than theory, with an emphasis on user lifecycle management, workstation support, and basic cross-platform integration.
+The lab focuses on practical, job-relevant Active Directory administration rather than theory, with an emphasis on user lifecycle management, workstation support, cross-platform integration, and ticket-based workflows.
 
 ---
 
@@ -18,8 +18,8 @@ The lab focuses on practical, job-relevant Active Directory administration rathe
     - DNS Server
 
 ### Clients
-- Windows Server 2022 (domain-controller)
-- 2 x Windows 10 Enterprise (domain-joined)
+- Windows Server 2022 (domain controller)
+- 2 × Windows 10 Enterprise (domain-joined)
 - Ubuntu Linux (domain-joined)
 - macOS (domain-joined)
 
@@ -43,7 +43,29 @@ This homelab simulates common **Tier 1 Help Desk** and junior IT support tasks, 
 - Group Policy application at a basic level
 - Windows workstation deployment and domain joins
 - Cross-platform directory integration exposure (Windows, Linux, macOS)
-- Tier 1 Help Desk troubleshooting and documentation practices
+- Ticket-based Help Desk workflows using Jira
+- Tier 1 troubleshooting and documentation practices
+
+---
+
+## Ticketing System (Jira)
+
+This lab includes a **Jira-based ticketing system** to simulate real-world Help Desk operations.
+
+Jira is used to demonstrate:
+- Incident and service request tracking
+- Clear documentation of user issues
+- Mapping tickets to Active Directory administrative actions
+- Proper resolution and closure of tickets
+
+### Simulated Tickets Include:
+- Account locked out
+- Forgot password
+- Disable user account (user moved to Disabled Users OU and account disabled)
+- Connect macOS device to Active Directory domain
+- Onboard new Sales user (user created in Sales OU and added to `SG_Sales` security group)
+
+All tickets are created, worked, and resolved as they would be in a production Help Desk environment.
 
 ---
 
@@ -52,6 +74,7 @@ This homelab simulates common **Tier 1 Help Desk** and junior IT support tasks, 
 - Active Directory Users and Computers (ADUC)
 - DNS Manager
 - Group Policy Management Console (GPMC)
+- Jira (Help Desk ticketing simulation)
 
 ---
 
@@ -61,6 +84,7 @@ This homelab simulates common **Tier 1 Help Desk** and junior IT support tasks, 
 - `documentation/`
   - `ad-structure.md` – Active Directory OU, user, group, and computer structure
   - `tier1-activities.md` – Simulated Tier 1 Help Desk tasks and workflows
+  - `ticketing-system.md` – Jira ticketing system setup and resolved tickets
   - `screenshots/` – Limited screenshots supporting documentation
 
 ---
@@ -69,6 +93,8 @@ This homelab simulates common **Tier 1 Help Desk** and junior IT support tasks, 
 
 This project demonstrates:
 - Understanding of real-world Active Directory administration
-- Familiarity with common Help Desk workflows
-- Proper organization and documentation of an IT environment
+- Experience working within a ticket-driven Help Desk environment
+- Ability to document and resolve common Tier 1 IT issues
 - Readiness for an **entry-level IT Support / Help Desk role**
+
+> Note: This environment uses test accounts and a lab-only domain for demonstration purposes.
