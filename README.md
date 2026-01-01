@@ -58,10 +58,10 @@ This homelab simulates common **Tier 1 Help Desk** and junior IT support tasks, 
 ## Repository Structure
 
 - `README.md` – Project overview
-- `screenshots/` – Limited screenshots supporting documentation
 - `documentation/`
   - `ad-structure.md` – Active Directory OU, user, group, and computer structure
   - `tier1-activities.md` – Simulated Tier 1 Help Desk tasks and workflows
+  - `screenshots/` – Limited screenshots supporting documentation
 
 ---
 
