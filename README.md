@@ -80,8 +80,8 @@ All tickets are created, worked, and resolved as they would be in a production H
   - `ticketing-system.md` – Jira ticketing system setup and resolved tickets
   - `screenshots/` – Limited screenshots supporting documentation
 - `ticketing system/`
-  - `README.md`
   - `screenshots/`   
+  - `README.md`
 
 ---
 
