@@ -78,10 +78,11 @@ All tickets are created, worked, and resolved as they would be in a production H
   - `ad-structure.md` – Active Directory OU, user, group, and computer structure
   - `tier1-activities.md` – Simulated Tier 1 Help Desk tasks and workflows
   - `ticketing-system.md` – Jira ticketing system setup and resolved tickets
-  - `screenshots/` – Limited screenshots supporting documentation
-- `ticketing system/`
-  - `screenshots/`   
-  - `README.md`
+  - `screenshots/` – Screenshots supporting documentation
+- `ticketing system/` -
+- `ticketing-system.md` – Jira ticketing system setup and resolved tickets
+  - `screenshots/` - Screenshots supporting documentation within Jira
+  - `README.md` - Jira ticketing system setup and resolved tickets
 
 ---
 
