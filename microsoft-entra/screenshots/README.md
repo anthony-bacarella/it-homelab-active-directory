@@ -1,176 +1,68 @@
-# Microsoft Entra ID (Azure AD) Homelab
+# Microsoft Entra ID (Cloud Identity Management)
 
-This project documents hands-on experience administering a **Microsoft Entra ID (Azure Active Directory)** tenant to simulate real-world **Tier 1 IT Help Desk** and **identity management** tasks in a cloud environment.
+This section documents how **Microsoft Entra ID** is used alongside the **lab.local** Active Directory homelab to simulate real-world **cloud identity and access management** tasks commonly handled by **Tier 1 IT Help Desk** and **Junior IT Support** technicians.
 
-The lab focuses on **user lifecycle management, authentication troubleshooting, role-based access control (RBAC), and hybrid identity concepts**, using **Microsoft Entra Free**.
+The Entra ID lab is used to demonstrate:
+- Cloud-based user lifecycle management
+- Authentication and sign-in troubleshooting
+- Role-Based Access Control (RBAC)
+- Identity auditing through sign-in logs
+- Understanding of hybrid identity concepts
 
----
-
-## Environment Overview
-
-- **Platform:** Microsoft Entra ID (Free Tier)
-- **Tenant Type:** Cloud-only Entra tenant
-- **Identity Source:** Simulated on-premises Active Directory users (manually replicated)
-- **Licensing:** Entra ID Free (no Premium features used)
+All actions are performed using **:contentReference[oaicite:0]{index=0} Free** and represent realistic entry-level IT scenarios.
 
 ---
 
-## Objectives
+## Entra Identity Workflow
 
-- Demonstrate core cloud identity administration skills
-- Simulate common Tier 1 help desk identity-related tickets
-- Understand Entra ID structure and role-based permissions
-- Show readiness for Microsoft 365 / IAM environments
-
----
-
-## Users
-
-The following users were created in Entra ID to mirror an on-premises Active Directory environment:
-
-- Jeffery Davis  
-- Matthew Williams  
-- Additional department-based users (Accounting, Sales, IT, HR)
-
-User objects were created to reflect real organizational structure and role separation.
+Each task follows a structured identity support workflow:
+- User request or issue identified
+- User or role object reviewed in Entra ID
+- Administrative or troubleshooting action performed
+- Result verified through sign-in or account status
+- Action documented for audit and tracking purposes
 
 ---
 
-## Tasks Performed
+## Simulated Entra ID Tasks Completed
 
-### 1️⃣ User Password Reset & Account Support
+- **Reset User Password – Jeffery Davis**  
+  User reported inability to sign in due to forgotten credentials.  
+  Password was reset in Entra ID with enforcement of password change at next sign-in.
 
-- Performed password reset for **Jeffery Davis**
-- Forced password change at next sign-in
-- Verified successful login after reset
+- **Sign-In Log Review**  
+  Reviewed Entra ID sign-in logs to analyze authentication attempts.  
+  Identified successful and failed sign-ins, timestamps, and login activity for troubleshooting purposes.
 
-**Skills Demonstrated**
-- Tier 1 identity troubleshooting  
-- User lifecycle management  
-- End-user support workflows  
+- **Replicate On-Premises AD Users to Entra ID**  
+  Users from the **lab.local** Active Directory environment were manually replicated into Entra ID.  
+  This simulates preparation for hybrid identity and cloud migration scenarios.
 
----
+- **Create Department-Based Groups**  
+  Created and managed department groups to reflect organizational structure:
+  - Accounting Department  
+  - Sales Department  
+  - IT Department  
+  - Human Resources Department  
 
-### 2️⃣ Sign-In Log Review & Troubleshooting
+  Users were assigned to appropriate groups to demonstrate role separation and least-privilege principles.
 
-- Reviewed Entra ID sign-in logs
-- Identified:
-  - Successful logins
-  - Failed authentication attempts
-  - Login source and timestamps
-
-**Skills Demonstrated**
-- Authentication troubleshooting  
-- Security awareness  
-- Audit log analysis  
-
----
-
-### 3️⃣ On-Premises AD User Replication (Conceptual Hybrid Identity)
-
-- Replicated on-premises Active Directory users into Entra ID
-- Maintained consistent:
-  - Usernames
-  - Department structure
-  - Role alignment
-
-**Purpose**
-- Simulate hybrid identity preparation
-- Demonstrate understanding of cloud transition planning
-
-**Note**
-> This lab intentionally avoids Entra Connect to remain within free licensing constraints.
+- **Assign Administrative Role – Matthew Williams**  
+  Assigned the **Global Administrator** role to a designated test account.  
+  Role permissions were reviewed to demonstrate understanding of RBAC and privileged access management.
 
 ---
 
-### 4️⃣ Department-Based Group Management
+## Purpose
 
-Created and managed security groups to represent organizational departments:
-
-- Accounting Department  
-- Sales Department  
-- IT Department  
-- Human Resources Department  
-
-Users were assigned to appropriate groups to demonstrate **logical access structuring** and **least-privilege principles**.
-
-**Skills Demonstrated**
-- Group-based access planning  
-- Organizational identity design  
-- Role separation  
+This Entra ID lab demonstrates my ability to:
+- Perform cloud-based identity administration
+- Troubleshoot authentication and login issues
+- Analyze sign-in logs for security and access validation
+- Apply role-based access control using Entra roles
+- Understand hybrid identity concepts between on-prem Active Directory and cloud identity platforms
+- Support common Tier 1 Help Desk identity-related requests
 
 ---
 
-### 5️⃣ Role-Based Access Control (RBAC)
-
-- Assigned **Matthew Williams** the **Global Administrator** role
-- Evaluated role permissions and scope
-
-**Security Best Practice**
-- Global Administrator role assigned to a single test account
-- Standard users maintained least-privilege access
-
-**Skills Demonstrated**
-- RBAC fundamentals  
-- Privileged account awareness  
-- Administrative role separation  
-
----
-
-## Real-World Scenarios Simulated
-
-- User unable to log in → password reset and verification  
-- Investigating failed sign-in attempts  
-- Structuring users and departments in a cloud directory  
-- Assigning administrative privileges securely  
-
----
-
-## Tools Used
-
-- Microsoft Entra Admin Center  
-- Entra ID Users & Groups  
-- Sign-In Logs  
-- Role Management  
-
----
-
-## Key Takeaways
-
-This lab demonstrates practical experience with:
-
-- Cloud identity administration
-- User authentication troubleshooting
-- Role-based access control
-- Hybrid identity concepts
-- Tier 1 IT Help Desk workflows
-
----
-
-## Next Steps
-
-Planned enhancements may include:
-- Guest user access simulation
-- Expanded role comparison documentation
-- Microsoft 365 integration (when licensing permits)
-
----
-
-## Screenshots
-
-Screenshots are stored in the `/screenshots` directory and include:
-
-- User password reset workflow  
-- Sign-in log review  
-- Group membership assignments  
-- Role assignment confirmation  
-
-(1–2 screenshots per task to maintain clarity and professionalism)
-
----
-
-## Author
-
-**Anthony Bacarella**  
-Entry-Level IT Support / Help Desk Candidate  
-Hands-on experience with Active Directory, Microsoft Entra ID, and cloud identity management
+> Note: All users, roles, and groups are created in a lab environment using test data only. No production accounts or real user data are used.
